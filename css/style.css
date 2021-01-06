@@ -1,0 +1,42 @@
+body {
+  background-color: #e5e5e5;
+}
+ul {
+  list-style: none;
+}
+/*новигфция*/
+.header {
+  background-color: #ffffff;
+}
+.logo {
+  color: #2196f3;
+}
+
+.site-nav {
+  color: #212121;
+}
+.site-nav:hover {
+  color: #2196f3;
+}
+.address {
+  color: #757575;
+}
+.address:hover {
+  color: #757575;
+}
+.heading {
+  background-color: #2f303a;
+}
+/*описание*/
+/*команда*/
+.team {
+  background-color: #f5f4fa;
+}
+/*подвал*/
+.footer {
+  background-color: #2f303a;
+}
+/* основной текст #212121*/
+/* вторичный текст #757575*/
+/*акцент #FFFFFF*/
+/*логотип #2196F3*/ ;
