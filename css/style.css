@@ -1,42 +1,74 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --link-color: #ffffff;
+  --primaary-bg-color: #f5f4fa;
+}
 body {
   background-color: #e5e5e5;
 }
 ul {
   list-style: none;
 }
-/*новигфция*/
+/*новигация*/
 .header {
   background-color: #ffffff;
 }
 .logo {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .site-nav {
-  color: #212121;
+  color: var(--primary-text-color);
 }
-.site-nav:hover {
-  color: #2196f3;
+.site-nav:hover,
+.site-nav:focus {
+  color: var(--accent-color);
 }
 .address {
-  color: #757575;
+  color: var(--title-text-color);
 }
-.address:hover {
-  color: #757575;
+.address:hover,
+.address:focus {
+  color: var(--accent-color);
 }
 .heading {
   background-color: #2f303a;
 }
+.heading-title {
+  color: var(--link-color);
+}
+.sction-title {
+  color: var(--primary-text-color);
+}
 /*описание*/
+.section-text {
+  color: var(--title-text-color);
+}
 /*команда*/
 .team {
   background-color: #f5f4fa;
+}
+.ttam-profession {
+  color: var(--title-text-color);
 }
 /*подвал*/
 .footer {
   background-color: #2f303a;
 }
-/* основной текст #212121*/
-/* вторичный текст #757575*/
-/*акцент #FFFFFF*/
-/*логотип #2196F3*/ ;
+.address-text {
+  color: var(--link-color);
+}
+.address-link {
+  color: var(--title-text-color);
+}
+.button {
+  color: var(--primary-text-color);
+  background-color: var(--primaary-bg-color);
+}
+
+.button.primary {
+  color: var(--link-color);
+  background-color: var(--accent-color);
+}
